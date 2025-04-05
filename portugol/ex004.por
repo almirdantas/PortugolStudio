@@ -3,13 +3,13 @@ programa
 	
 	funcao inicio()
 	{
-		cadeia func
-		real sal
-		escreva("Qual o seu nome? ")
-		leia(func)
-		escreva("Quanto voce ganha? ")
-		leia(sal)
-		escreva("O funcionario(a) " + func +", tem um salario de "+ sal +" no mes maio")
+		inteiro n1, n2, soma
+		escreva("Digite o primeiro numero: ")
+		leia(n1)
+		escreva("Digite o segundo numero: ")
+		leia(n2)
+		soma = n1 + n2
+		escreva("A soma ente o 1º numeno e 2º e: "+ soma)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -17,7 +17,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 234; 
+ * @POSICAO-CURSOR = 230; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
