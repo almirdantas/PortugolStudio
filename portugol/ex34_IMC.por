@@ -15,12 +15,15 @@ programa
 		IMC = Matematica.arredondar(massa, 2)
 		se( massa < 18.4){
 				escreva("Seu IMC e de "+ IMC +" esta abaixo do peso")				
-			}senao se ( massa >= 18.5 ou massa <= 25){
+			}se( massa >= 18.5 e massa < 25){
 				escreva("Seu IMC e de "+ IMC +" peso ideal")
-				}senao se( massa > 25 ou massa <= 30){
+				}se( massa >= 25 e massa < 30){
 					escreva("Seu IMC e de "+ IMC +" esta com sobrepeso")	
+					}se( massa >= 30 e massa < 40){
+					escreva("Seu IMC e de "+ IMC +" esta com obesidade")	
+						}se(massa > 40){
+						escreva("Seu IMC e de "+ IMC +" esta com obesidade morbita")
 					}
-		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -28,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 648; 
+ * @POSICAO-CURSOR = 750; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
