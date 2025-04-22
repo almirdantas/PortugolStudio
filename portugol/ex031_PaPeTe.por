@@ -1,6 +1,6 @@
 programa
 {
-	inclua biblioteca Util --> c
+	inclua biblioteca Util --> c
 	funcao inicio()
 	{
 		cadeia jogada[3] =  {"Pedra", "Papel", "Tesoura"}
@@ -29,7 +29,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 464; 
+ * @POSICAO-CURSOR = 459; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
