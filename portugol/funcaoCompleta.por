@@ -1,15 +1,19 @@
 programa
 {
-	
+		funcao inteiro fat( inteiro n){
+			inteiro f = 1
+			para ( inteiro c = n; c >= 1; c --){
+				f *=  c
+			}
+			retorne f
+		}	
+		
 	funcao inicio()
 	{
-		inteiro cont = 1
-		inteiro soma = 0
-		enquanto ( cont <= 10){
-			soma += cont
-			escreva(cont +" + ")
-			cont = cont + 1	
-		}escreva(" = "+soma)
+		inteiro n
+		escreva("Digite um numero: ")
+		leia (n)
+		escreva("O fatorial de ", n, " e igiual a ", fat(n))
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -17,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 51; 
+ * @POSICAO-CURSOR = 111; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
